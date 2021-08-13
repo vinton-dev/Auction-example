@@ -1,0 +1,3 @@
+let i =await Auction.deployed();
+
+i.createAsset(1,'MOBILE',1000,'IPHONE 11',{from:accounts[0]})
